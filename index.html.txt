@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>내 포트폴리오</h1>
+            <p>임베디드 시스템, RTOS 기반 IoT 보안 연구, UAV 보안, Vision AI 프로젝트 경험</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>소개</h2>
+        <p>안녕하세요! 저는 임베디드 시스템, RTOS 기반 IoT 보안, UAV 보안 분야에서 연구를 진행하고 있는 컴퓨터공학 석사과정 학생입니다. 다양한 산업에 적용 가능한 보안 기술을 연구하며 실무 경험을 쌓고 있습니다.</p>
+    </section>
+
+    <section id="research">
+        <h2>연구 분야</h2>
+        <div class="research">
+            <h3>RTOS 기반 IoT 시스템 보안 기술</h3>
+            <p>RTOS 환경에서 발생할 수 있는 메모리 취약점과 제어 흐름 무결성 문제를 해결하는 기술을 개발했습니다. 특히, Stack Segment Randomization(SSR)과 Control Flow Integrity(CFI) 기술을 적용하여 실시간 시스템의 보안을 강화했습니다.</p>
+        </div>
+        <div class="research">
+            <h3>무인이동체(UAV) 보안</h3>
+            <p>PX4 오픈소스 드론 플랫폼을 대상으로 Secure Boot 아키텍처를 설계하고, AES-256 알고리즘을 최적화하여 실시간 비행 데이터 암호화를 구현했습니다. 또한, HMAC을 통한 무결성 검증 기술을 적용했습니다.</p>
+        </div>
+    </section>
+
+    <section id="internships">
+        <h2>인턴십 경험</h2>
+        <div class="internship">
+            <h3>AXIO SecureCAR 프로젝트</h3>
+            <p>자동차 ECU 보안 강화, Secure OTA 시스템 개발, TLS-VPN을 통한 차량 간 통신 보안 강화 및 취약점 분석을 진행했습니다.</p>
+        </div>
+        <div class="internship">
+            <h3>Vision AI 기반 스마트 컨테이너 모니터링 시스템</h3>
+            <p>YOLOv4 아키텍처를 활용하여 환경조건에 따른 인식률 저하 문제를 해결하고, 모델을 경량화하여 실시간 처리 속도를 최적화했습니다.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>프로젝트</h2>
+        <div class="project">
+            <h3>대전대 캡스톤 경진대회</h3>
+            <p>YOLOv5를 활용한 보행자 안전 보장 시스템을 개발, 인식률 97% 달성하여 교차로 사고를 줄이는 시스템을 구현했습니다.</p>
+        </div>
+        <div class="project">
+            <h3>대전권 대학연합 산학 협력 성과 공유 발표</h3>
+            <p>FT. ELIOT 프로젝트에서 IoT 기기의 디지털 포렌식 도구를 개발, 실시간 및 오프라인 포렌식 지원 도구를 완성했습니다.</p>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2>수상 및 활동</h2>
+        <div class="award">
+            <h3>교내 자율주행차 코딩 경진대회</h3>
+            <p>자율주행 알고리즘을 구현하여 로봇이 실제 도로 환경을 모사한 경진대회에서 성공적으로 완주했습니다.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 나의 포트폴리오</p>
+    </footer>
+</body>
+</html>
